@@ -21,6 +21,7 @@ Query OK, 0 rows affected (0.06 sec)
 mysql> create table biaoge2(name varchar(20));
 Query OK, 0 rows affected (0.02 sec)
 ```
+![](https://github.com/fyh1234/mysql-test-1/blob/master/640.webp.jpg)
 ## 题目2：如何join两张表
 
 ## 题目3： xxxx
