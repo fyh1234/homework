@@ -22,7 +22,7 @@ mysql> create table biaoge2(name varchar(20));
 Query OK, 0 rows affected (0.02 sec)
 ```
 
-![](https://github.com/fyh1234/mysql-test-1/blob/master/MySQL%E5%9B%BE%E7%89%871.png)
+![](https://github.com/fyh1234/mysql-test-1/blob/master/photo.png)
 
 ## 题目2：如何join两张表
 
