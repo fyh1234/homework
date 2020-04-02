@@ -1,7 +1,8 @@
 ## 题目1：建立一个mysql database, 包含以下两张表：
 
 
-```mysql> show databases;
+```
+mysql> show databases;
 +--------------------+
 | Database           |
 +--------------------+
