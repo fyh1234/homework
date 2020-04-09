@@ -9,7 +9,7 @@
 create database test;   # 创建名为“test”的数据库
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/1.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/1.png)
 
 #### 2.查看和选择数据库：
 
@@ -20,7 +20,7 @@ show databases; 	# 显示全部数据库
 use test;		# 选择test数据库
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/2.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/2.png)
 
 #### 3.删除数据库：
 
@@ -30,7 +30,7 @@ use test;		# 选择test数据库
 drop database test; 	# 删除test数据库
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/3.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/3.png)
 
 ### 二、查看MySQL数据库中的存储引擎
 #### 1.查看所支持的存储引擎
@@ -41,7 +41,7 @@ drop database test; 	# 删除test数据库
 show engines;  
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/4.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/4.png) 
 
 #### 2.查看默认的存储引擎
 
@@ -51,7 +51,7 @@ show engines;
 show variables like '%storage_engine%';  
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/5.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/5.png) 
 
 ### 三、对表操作的相关命令
 #### 1.在数据库中创建一个新的表
@@ -66,7 +66,7 @@ loc varchar(40)
 ); 
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/6.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/6.png) 
 
 #### 2.查看表的定义信息
 
@@ -77,7 +77,7 @@ describe t_dept;		 # 查看表的定义
 show create table t_dept; 	 # 查看表的详细定义
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/7.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/7.png) 
 
 #### 3.删除表
 
@@ -88,7 +88,7 @@ drop table t_dept;	#删除表t_dept
 describe t_dept;       #查看表t_dept是否存在
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/8.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/8.png) 
 
 #### 4.修改表名
 
@@ -101,7 +101,7 @@ desc t_dept;	# 查看表对象t_dept
 desc t_dept1;	# 查看表对象t_dept1
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/9.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/9.png) 
 
 #### 5.增加字段和删除字段
 
@@ -113,7 +113,7 @@ alter table t_dept1 add tel varchar(20); 	# 在表的最后面增加字段
 desc t_dept1;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/10.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/10.png) 
 
 **执行命令如下:**
 ##### 在表的最前面增加字段
@@ -123,7 +123,7 @@ alter table t_dept1 add name varchar(10) first; # 在表的最前面增加字段
 desc t_dept1;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/11.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/11.png)
 
 **执行命令如下:**
 ##### 在表指定字段后增加字段
@@ -133,7 +133,7 @@ alter table t_dept1 add class varchar(10) after dname; # 在指定字段位置dn
 desc t_dept1;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/12.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/12.png)
 
 **执行命令如下:**
 ##### 删除字段
@@ -142,7 +142,7 @@ desc t_dept1;
 alter table t_dept1 drop class; # 删除字段
 desc t_dept1;
 ```
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/13.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/13.png)
 
 #### 6.修改字段
 
@@ -155,7 +155,7 @@ alter table t_dept1 modify tel int; # 修改属性Tel的数据类型
 desc t_dept1;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/14.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/14.png)
 
 ##### 同时修改字段的名字和数据类型
 **执行命令如下:**
@@ -166,7 +166,7 @@ alter table t_dept1 change dname Dname VARCHAR(10);  # 将字段dname修改为Dn
 desc t_dept1;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/15.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/15.png)
 
 ##### 修改字段的顺序
 **执行命令如下:**
@@ -177,7 +177,7 @@ alter table t_dept1 modify  deptno int(11) after loc;   # 将字段deptno放到�
 desc t_dept1;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/16.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/16.png)
 
 ### 四、操作表的约束
 **执行命令如下:**
@@ -193,7 +193,7 @@ number int primary key auto_increment	#设置字段自动增加
 desc t_dept2;
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/17.png?raw=true) 
+![](https://github.com/fyh1234/homework/blob/master/photo/17.png) 
 
 ### 五、数据的操作
 #### 1.插入数据记录
@@ -206,7 +206,7 @@ insert into t_dept1 values('Zhangsan','Lisi','Guangdong',124,123457);
 select* from t_dept1;  #查询表的数据记录
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/20.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/18.png)
 
 #### 2.同时插入多条数据记录
 
@@ -219,7 +219,7 @@ insert into t_dept1 values('Zhangfei','Guanyu','heibei',123,123456),
 select* from t_dept1; #查询表的数据记录
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/21.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/19.png)
 
 #### 3.将一个表的记录插入另一个表中
 
@@ -243,4 +243,4 @@ insert into t_dept1(name,loc,tel) select Bname,loc,Tel from class;
 select * from t_dept1;    ##查询表的数据记录
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/22.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/20.png)
