@@ -2,17 +2,18 @@
 **执行命令如下:**
 
 ```SQL
-	drop table if exists t_employee;
-	CREATE TABLE t_employee(	      # 创建一个雇员表
-  deptno int not null,
-	empno int primary key,
-	ename varchar(20),
-	job varchar(20),
-  MGR int,
-	Hiredate date,
-	sal float,
-	comm float
-	);
+
+drop table if exists t_employee;
+CREATE TABLE t_employee(	      # 创建一个雇员表
+deptno int not null,
+empno int primary key,
+ename varchar(20),
+job varchar(20),
+MGR int,
+Hiredate date,
+sal float,
+comm float
+);
 insert into t_employee (empno, ename, job, MGR, Hiredate, sal, comm, deptno)  # 给雇员表插入记录
 values (7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
 (7499, "ALLEN", "SALESMAN", 7698, "1982-03-12", 1600, 300, 30),
