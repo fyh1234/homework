@@ -2,12 +2,11 @@
 
 ### 一、数据库操作相关的命令
 #### 1.创建一个新的数据库
-**屌丝的屌最大**
 
 **执行命令如下:**
 
 ```SQL
-	CREATE DATABASE biu1;   # biu1为数据库名称
+	create database test;   # 创建名为“test”的数据库
 ```
 ##### 执行上面SQL语句结果显示如图所示：
 ![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/1.png?raw=true)
