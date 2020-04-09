@@ -5,8 +5,8 @@
 
 **执行命令如下:**
 
-
-```SQLcreate database test;   # 创建名为“test”的数据库
+```SQL 
+create database test;   # 创建名为“test”的数据库
 ```
 ##### 执行上面SQL语句结果显示如图所示：
 ![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/1.png?raw=true)
