@@ -23,7 +23,8 @@ select * from t_employee where sal > (
 select sal from t_employee where ename='SMITH');                   #第一个query
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/31.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/24.png)
+![](https://github.com/fyh1234/homework/blob/master/photo/25.png)
 
 ##### 第二个query可以这样
 **执行命令如下：**
@@ -39,6 +40,6 @@ on (t1.sal = t2.sal and (t2.ename='SMITH')) AND (t1.job = t2.job and (t2.ename='
 select * from t_employee;               #显示表t_employee2的所有记录
 ```
 ##### 执行上面SQL语句结果显示如图所示：
-![](https://github.com/BiubiuOoo/Homework-of-MySQL/blob/master/images/32.png?raw=true)
+![](https://github.com/fyh1234/homework/blob/master/photo/26.png)
 
 
